@@ -17,4 +17,4 @@ The first command line argument is required, the second is optional. If the seco
 
 ### Configuration
 
-If Kundex finds a config file in the same location you are running it from, it will use the details from this config file rather than anything given as command line arguments. It must be named `.kundexconfig`.
+If Kundex finds a config file in the same location you are running it from, it will use the details from this config file. However, command line arguments will take precedence. The config file must be named `.kundexconfig`.
